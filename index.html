@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formscc.html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h3>Student Registeraion Form</h3>
+        <hr>
+        <form action="submit.html">
+            <label  for="fname">Firstname:</label><br>
+            <input class="input" type="text" required name="fname" placeholder="Firstname"><br>
+            <label for="lname">Middlename:</label><br>
+            <input class="input" type="text" required name="lname" placeholder="Middlename"><br>
+            <label  for="lname">Lastname:</label><br>
+            <input class="input" type="text" required name="lname" placeholder="Lastname"><br>
+            <label class="courses" for="courses">Course:</label>
+            <select class="course" name="courses" required>
+                <option value="" disabled selected>Course</option>
+                <option value="volvo">Database</option>
+                <option value="saab">Pytoon</option>
+                <option value="mercedes">Computer</option>
+            </select><br>
+            <label class="gender" for="gender">Gender:</label><br>
+            <input class="gender" type="radio" value="Male">
+            <label class="gender" class="info-label" type="radio">Male</label>
+            <input class="gender"  type="radio" value="Female">
+            <label class="gender" class="info-label" type="radio">Female</label>
+            <input class="gender"  type="radio" value="Other">
+            <label class="gender" class="info-label" type="radio">Other</label><br>
+            <label  for="phone">Phone:</label><br>
+            <input class="input" type="text" value="+91"><br>
+            <input class="input" name="telNo" type="tel" size="10" placeholder="phone no."><br>
+            <label  for="address">Current Address:</label><br>
+            <textarea name="message" rows="10" cols="30" placeholder="Current Address"></textarea><br>
+            <label  for="email"><b>Email</b></label><br>
+            <input class="input" type="email" id="email" pattern=".+@gmail.com" size="30" required placeholder="Enter Email"><br>
+            <label  for="password"><b>Password</b></label><br>
+            <input class="input" type="password" id="pass" name="password" minlength="7" required placeholder="Enter Password"><br>
+            <label  for="retype-password"><b>Re-type Password</b></label><br>
+            <input class="input" type="password" id="pass" name="password" minlength="7" required placeholder="Retype Password"><br>
+            <button class="buttons" >Register</button>
+        </form>
+        
+    </div>
+    
+</body>
+</html>

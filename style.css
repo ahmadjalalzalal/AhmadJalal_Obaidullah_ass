@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+h3{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
+}
+
+hr{
+    text-align: center;
+    width: 450px;
+    border-color: white;
+}
+
+div{
+    background-color: rgb(117, 218, 252);
+    width: 500px;
+    font-size: 14px;
+    border: 10px solid rgb(206, 109, 109);
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.course{
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 450px;
+    height: 70px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-style: none;
+    margin-bottom: 20px;
+    
+}
+
+.input{
+    width: 450px;
+    height: 30px;
+    border-style: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.courses{
+    margin-bottom: 20px;
+}
+
+.gender{
+    margin-bottom: 15px;
+}
+
+.buttons{
+    background-color: rgb(15, 128, 26);
+    border-style: none;
+    color: white;
+    height: 32px;
+    width: 455px;
+    
+}
+.newpage{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: darkslategray;
+}
+
+
